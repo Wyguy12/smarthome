@@ -1,0 +1,11 @@
+com\wyattfredrickson\model\Device.class
+com\wyattfredrickson\server\DeviceServer.class
+com\wyattfredrickson\client\UserDashboardUI.class
+com\wyattfredrickson\client\DeviceClient.class
+com\wyattfredrickson\client\UserAccountCreationUI.class
+com\wyattfredrickson\server\MainServer.class
+com\wyattfredrickson\model\User.class
+com\wyattfredrickson\server\DeviceServer$ClientHandler.class
+com\wyattfredrickson\server\UserFileManager.class
+com\wyattfredrickson\client\UserLoginUI.class
+com\wyattfredrickson\model\UserAccountCreation.class

@@ -1,0 +1,42 @@
+/* 
+Ensure you set the JAVA_FX_LIB_PATH environment variable on your system.
+Run DeviceServer then run UserAccountCreationUI.
+
+*/
+{
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Start DeviceServer",
+            "request": "launch",
+            "mainClass": "com.wyattfredrickson.server.MainServer",
+            "projectName": "smarthome"
+        },
+        {
+            "type": "java",
+            "name": "Launch UserAccountCreationUI",
+            "request": "launch",
+            "mainClass": "com.wyattfredrickson.client.UserAccountCreationUI",
+            "projectName": "smarthome",
+            "vmArgs": "--module-path \"${env:JAVA_FX_LIB_PATH}\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch UserLoginUI",
+            "request": "launch",
+            "mainClass": "com.wyattfredrickson.client.UserLoginUI",
+            "projectName": "smarthome",
+            "vmArgs": "--module-path \"${env:JAVA_FX_LIB_PATH}\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch UserDashboardUI",
+            "request": "launch",
+            "mainClass": "com.wyattfredrickson.client.UserDashboardUI",
+            "projectName": "smarthome",
+            "vmArgs": "--module-path \"${env:JAVA_FX_LIB_PATH}\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
