@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Home Control Demo
 
 This is a demo project for simulating a smart home control system using JavaFX and a simple server-client architecture.
@@ -53,3 +54,6 @@ smarthome
 ├── users.json
 ├── README.md      
 └── LICENSE        
+=======
+# smarthome
+>>>>>>> 38c5a4282fb9f4c1f65b614ca362563b87d9f093
