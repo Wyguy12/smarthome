@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Smart Home Control Demo
 
 This is a demo project for simulating a smart home control system using JavaFX and a simple server-client architecture.
@@ -22,38 +21,3 @@ This is a demo project for simulating a smart home control system using JavaFX a
 
    git clone https://github.com/yourusername/smarthome.git
    cd smarthome
-
-
-smarthome
-├── .vscode
-├── src
-│   └── main
-│       └── java
-│           └── com
-│               └── wyattfredrickson
-│                   ├── client
-│                   │   ├── DeviceClient.java
-│                   │   ├── UserAccountCreationUI.java
-│                   │   ├── UserDashboardUI.java
-│                   │   └── UserLoginUI.java
-│                   ├── model
-│                   │   ├── Device.java
-│                   │   ├── User.java
-│                   │   └── UserAccountCreation.java
-│                   └── server
-│                       ├── DeviceServer.java
-│                       ├── MainServer.java
-│                       └── UserFileManager.java
-├── resources
-├── test
-│   └── java
-│       └── com
-│           └── wyattfredrickson
-├── target
-├── pom.xml
-├── users.json
-├── README.md      
-└── LICENSE        
-=======
-# smarthome
->>>>>>> 38c5a4282fb9f4c1f65b614ca362563b87d9f093
